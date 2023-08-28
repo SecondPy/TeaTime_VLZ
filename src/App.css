@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.image-buttons-container {
+  display: flex;
+}
+
+
+.image-public_table_button {
+  background-image: url('../public/images/public_table.jpg');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.image-vip_table_button {
+  background-image: url('../public/images/vip_table.jpg');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: none;
+  cursor: pointer;
+}
+
