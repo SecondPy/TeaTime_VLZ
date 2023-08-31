@@ -14,9 +14,9 @@ function App() {
     <script>
         let tg = window.Telegram.WebApp;
         tg.expand();
-            let data = 'абракадабра'
+        tg.expand();
+            let data = 'абракадабра';
             tg.sendData(JSON.stringify(data));
-            tg.close();
     </script>
         <h1>Добро пожаловать в чайный клуб TeaTime</h1>
         <TableSelection />
