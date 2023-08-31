@@ -14,15 +14,6 @@ function App() {
         <button id="order">Забронировать</button>
         </form>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
-        let tg = window.Telegram.WebApp;
-        let order =  document.getElementById("order");
-        tg.expand();
-        order.addEventListener("click", () => {
-            let data = 'абракадабра';
-            tg.sendData(JSON.stringify(data));
-        });  
-    </script>
         <h1>Добро пожаловать в чайный клуб TeaTime</h1>
         <TableSelection />
         <img src={logo} className="App-logo" alt="logo" />
