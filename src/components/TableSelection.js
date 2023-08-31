@@ -39,13 +39,6 @@ const TableSelection = () => {
                     dateFormat="dd/MM/yyyy HH:mm"
                     />
             </div>
-        <script>
-        let tg = window.Telegram.WebApp;
-        tg.expand();
-            let data = 'абракадабра'
-            tg.sendData(JSON.stringify(data));
-            tg.close();
-    </script>
         </div>
     );
 };
