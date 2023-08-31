@@ -21,8 +21,7 @@ function App() {
         order.addEventListener("click", () => {
             let data = 'абракадабра';
             tg.sendData(JSON.stringify(data));
-        }
-            
+        });  
     </script>
         <h1>Добро пожаловать в чайный клуб TeaTime</h1>
         <TableSelection />
