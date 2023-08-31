@@ -25,7 +25,7 @@ const TableSelection = () => {
                     selected={selectedDatePublic}
                     onChange={handleDateChange1}
                     showTimeSelect
-                    timeIntervals={15}
+                    timeIntervals={30}
                     dateFormat="dd/MM/yyyy HH:mm"
                     />
             </div>
@@ -35,7 +35,7 @@ const TableSelection = () => {
                     selected={selectedDateVip}
                     onChange={handleDateChange2}
                     showTimeSelect
-                    timeIntervals={15}
+                    timeIntervals={30}
                     dateFormat="dd/MM/yyyy HH:mm"
                     />
             </div>
