@@ -13,5 +13,6 @@ test('renders learn react link', () => {
       let data = 'абракадабра';
       tg.sendData(JSON.stringify(data));
     });
+  tg.close();
 });
 
