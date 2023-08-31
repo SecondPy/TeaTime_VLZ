@@ -8,9 +8,6 @@ import TableSelection from './components/TableSelection'
 
 function App() {
   return (
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&dislpay=swap')
-    
     <div className="App">
       <header className="App-header">
       <script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -37,7 +34,6 @@ function App() {
         </a>
       </header>
     </div>
-    </style>
   );
 }
 
